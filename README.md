@@ -16,7 +16,7 @@
 
 ## Background Information
 
-* My inspiration came from an YouTube video called "Introduction To WebScraping With Python and BeautifulSoup" by Data Science Dojo in the beginning when I was finding my way. This video that began the snowball effect of my progress, and it was instructed and narrated by Mr. Phuc Duong (Sr. Data Science Engineer). I will post the link in the credits at the end. Although this video was made 3 years ago, and versions of Python and BeautifulSoup he used were older, Mr. Duong did a great job in explaining the underlying concepts of webscraping with BeautifulSoup. I was able to reproduce the same results, and add my own flare to it, after reviewing updated documenation from BeautifulSoup4's website. After achieving initial success of webscraping one page of laptops from Newegg.com, I wanted to further challenge myself by adding a webcrawler capability that automatically clicks next page, and loops through as many pages as my search query produced. I used Splinter because based on some research I did, it was wrapper on top of Selenium in Python as opposed to JavaScript, which and it said to be gaining some popularity (https://python.libhunt.com/compare-splinter-vs-selenium). I am stronger Python, so my decision leaned towards Splinter to start out. Thoughout my program, I also made a genuine effort to weave in dyanmic and object oriented programming concepts into my project, which I found to be more scalable and efficient.
+* My inspiration came from an YouTube video called "Introduction To WebScraping With Python and BeautifulSoup" by Data Science Dojo in the beginning when I was finding my way. This video that began the snowball effect of my progress, and it was instructed and narrated by Mr. Phuc Duong (Sr. Data Science Engineer). I will post the link in the credits at the end. Although this video was made 3 years ago, and versions of Python and BeautifulSoup he used were older, Mr. Duong did a great job in explaining the underlying concepts of webscraping with BeautifulSoup. I was able to reproduce the same results, and add my own flare to it, after reviewing updated documenation from BeautifulSoup4's website. After achieving initial success of webscraping one page of laptops from Newegg.com, I wanted to further challenge myself by adding a webcrawler capability that automatically clicks next page, and loops through as many pages as my search query produced. I decided to use Splinter for the following reasons: Splinter is wrapper on top of Selenium that is Python based, as opposed to Selenium being originally JavaScript based (https://python.libhunt.com/compare-splinter-vs-selenium); Splinter is said to be gaining popularity; and Python is my natural strength. I found Splinter easy to implement once I read the documentation, and it also has a Chrome Web Driver that enables the user to write code to automate the Chrome browser. Thoughout my program, I also made a genuine effort to weave in dyanmic and object oriented programming concepts into my project, which I found to be more scalable and efficient.
 
 
 ## System Prerequisites To Get Started
@@ -42,10 +42,10 @@ You will need the following installed on your computer system and import the fol
 
 * Viewing Source Code And Produced Results - if this is the route you'd like to go, then please click on the only and conveniently placed Jupyter Notebook in the repository. All of my code and webcrawling and scraping program logs are in the main Jupyter Notebook. I've also saved the results log from my program when I completed a 47 page scrape in the txt file. In the final_ouputs and processing folder, you will see the 25 and 47 page successful scrapes my program produced saved as CSV files.
 
-* Clone / Download Entire Repository - if you'd like to replicate my work or even use the scraper yourself, please download / clone my repository and install all of the prerequisites. After, you can open the Jupyter Notebook, use the same search query I did or go to Newegg.com, and produce a search url query yourself. In the Jupyter Notebook, it allows you to run everything cell by cell, incase you need to make any tweaks.
+* Clone / Download Entire Repository - if you'd like to replicate my work or even use the scraper yourself, please download / clone my repository and install all of the prerequisites. After, you can open the Jupyter Notebook, use the same search query I did or go to Newegg.com, and produce a search url query yourself. In the Jupyter Notebook, it allows you to run everything cell by cell, incase you need to make any tweaks. I'd recommend scraping towards midnight for the best results when Newegg.com, which was when I had the best results.
 
 
-## Main Built-in Functionalities
+## Main Built-in Functionalities - Please Refer To The Jupyter Notebook For The Code
 
 * NewEgg Web Scarper Functions - this will keep trying to scrape the target page using a combination of while loop, random sleep patterns, and try and excepts. The output are a csv file per scraped page; all laptops on a page are then passed into a Laptop class, and instances of these objects  are created using a list comprehension, and are subsequently appended to a list called "product_catalog", producing a "list of list of objects".
 
@@ -64,18 +64,18 @@ You will need the following installed on your computer system and import the fol
 
 ![user_input1](./images/input2.PNG)
 
-* Three potential outputs:
+* Three Potential Outputs:
 
-- 1) Each Scraped page as a seperate CSV file in the processing folder
+1) Each Scraped page as a seperate CSV file in the processing folder
 
 ![user_input1](./images/processing_folder.PNG)
 
-- 2) One CSV file of all pages scraped in one CSV file in the final_output folder
+2) One CSV file of all pages scraped in one CSV file in the final_output folder
 
 ![user_input1](./images/finshed_outputs.PNG)
 
 
-## Sample Code And Findings
+## Program Preview And Findings
 
 * Welcome to NewEgg.com Supervised Web Crawler and Scraper - please see an example of the introduction to the program and where and how the user will be asked to input the URL to their custom laptop search query.
 
@@ -93,7 +93,7 @@ You will need the following installed on your computer system and import the fol
 
 ![button_top](./images/topbutton.PNG)
 
-* Note: For the Bottom Next Page Button, I found that NewEgg.com had more of a tendency to change bottom divs when you get deep into the scrape especially, when it suspects the user is a bot, or after the user was prompted to take a Google reCAPTCHA test.
+* Note: For the Bottom Next Page Button - I found that NewEgg.com had more of a tendency to change bottom divs when you get deep into the scrape especially, when it suspects the user is a bot, or after the user was prompted to take a Google reCAPTCHA test.
 
 ![button_bottom](./images/bottombutton.PNG)
 
@@ -101,12 +101,10 @@ You will need the following installed on your computer system and import the fol
 
 ![button_bottom](./images/breakpedal_topbottom_nextpg_notworking.PNG)
 
-![button_bottom](./images/bottombutton.PNG)
-
 
 ## Encountering Potential Errors
 
-* Potential Errors in the event the program is unable to circumvent Newegg's reCAPTCHA (Developed by Google) to help protect websites from being webscraped by requiring website visitors to complete image selections tests to prove the user is a human and not a bot. As you can imagine, this was the most difficult obstacle about this project I had to figure out a way to overcome, which is why this why I call this a "supervised webscraper and crawler", as the user is prompted to take action to circumvent their defenses. I also found that scraping late night towards midnight, was when I had the best results. My hypothesis is that their system resets at that time because the odds are, they employ machine learning to predict which users are bots based on all user traffic from that day. This is also why, you'll notice there are many different Xpaths I have set up as Try's and Excepts in my code.
+* Potential Errors in the event the program is unable to circumvent Newegg's reCAPTCHA (Developed by Google) to help protect websites from being webscraped by requiring website visitors to complete image selections tests to prove the user is a human and not a bot. As you can imagine, this was the most difficult obstacle about this project I had to figure out a way to overcome, which is why this why I call this a "supervised webscraper and crawler", as the user is prompted to take action to circumvent their defenses. I also found that the timing of when you decide to scrape is also important. I strongly hypothesize Newegg employs machine learning along with Google's reCAPTCHA to predict which users are bots scraping their data based on all users traffic and actions from that day. As you may know, most commerical websites collect data on how long users are on their page, which links they interact with, and etc. With this said, I found that when I scraped late around midnight, was when I had the best results and was most successful.
   
 - Google reCAPTCHA Test Example Below:
 
