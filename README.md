@@ -1,48 +1,27 @@
 # NewEgg.com WebScraper And Crawler For Laptops
+## April 2020
+
 
 ![intro_pic0](./images/logo.jpg)
-![intro_pic1](./images/selenium-python-splinter.jpg)
+
 ![intro_pic2](./images/bs4_logo.png)
 
+![intro_pic1](./images/selenium-python-splinter.jpg)
 
 
 ## Scope & Purpose
 
-* For this project, I built a Newegg.com laptop web scraper and page crawler program that succesfully scraped 25 and 47 pages with 900 and 1,692 laptops scraped, which you will find in the final_ouputs folder. Each scarped page are also saved in the processing folder. My objective was to further develop my data extraction skills from the web, the "E" in ETL, and build a robust webscraper to the best of my ability given the limited time I invested into this project, and experience. Data mining skills are essential as a Data Engineer and analyst, so that was where my main focus was for this project.
+* For this project, I built a Newegg.com laptop web scraper and page crawler program that succesfully scraped 25 and 47 pages, with 900 and 1,692 laptops scraped including their: brand, product category, image (link), model specifications and details, product links, item numbers, current promotion information (if applicable), price, and page number. You will find examples of each scarped page in the processing folder, and a concatenated version in one file in the file output folder. My objective was to further develop my data extraction skills from the web (the "E" in ETL), and build a robust webscraper with the limited time I invested into this project. Data mining is an essential skill as a Data Engineer and analyst, so that was where my main focus was for this project.
 
 
 ## Background Information
 
-* My inspiration for this project came from an YouTube video called "Introduction To WebScraping With Python and BeautifulSoup" by Data Science Dojo, and it was instructed and narrated by Phuc Duong (Sr. Data Science Engineer). I will post the link in the credits at the end. Although this video was made 3 years ago, and the Python and BeautifulSoup versions he used was older, Mr. Duong did a great job in explaining the underlying concepts of webscraping with BeautifulSoup. I was able to reproduce the same results after reviewing updated documenation from BeautifulSoup4's website. After achieving initial success of webscraping one page of laptops from Newegg.com, I wanted to further challenge myself by adding a webcrawler capability that automatically clicks next page to as many pages the user inputted search query produces. Thoughout my program, my intention was to implement dyanmic and light object oriented programming concepts.
-
-
-## Notable Built-in Functions
-
-* NewEgg web scarper functions that will keep trying to scrape the target pages using a while loop, and output a csv file per page; all laptops on a page are passed into a Laptop class, and objects are created using a list comprehension, and are subsequently appended to a list called "product_catalog", producing a "list of list of objects".
-* Webcrawler that accurately loops thru pages of the search result; randomly mouses over product links on pages; and randomly sleeps and clicks the top or bottom next page button to emulate human behavior.
-* Optional function enabling the user concatenate all scarped pages into one CSV file when scrape is completed.
-* Option function to clear out the "processing" folder to prevent clutter.
-* Google reCAPTCHA and NewEgg's "Are You Human?" test functions that scans the requested HTML, pauses the program, and alerts the user if Newegg suspects a bot; suggested instructed actions are provided to help the user circumvent Newegg's defenses to be successful in their scrape.
-
-
-## User Input And Output Expectations
-
-* The only input requirement from the user is a Newegg.com search query results's URL (e.g. going to Newegg.com and check boxes for a lenovo laptops between prices of $1000 - $1500, with Intel Core 7 Processor, 16gb memory, and 250gb SSD and etc... that produces 50 pages) - see example below.
-
-![user_input1](./images/input.PNG)
-
-* The three potential outputs:
-
-- 1) One CSV file of all pages scraped in one CSV file in the final_output folder
-- 2) Each Scraped page as a seperate CSV file in the processing folder
-- 3) Potential Errors in the event the program is unable to circumvent Newegg's reCAPTCHA (Developed by Google) to help protect websites from being webscraped by requiring website visitors to complete image selections tests to prove the user is a human and not a bot. As you can imagine, this was an obstacle I had to figure out a way to overcome, which is why this why I call this a "supervised webscraper and crawler", as the user is prompted to take action to circumvent their defenses.
-  
-* Important Note: Every time I made an attempt to scrape Newegg, it got harder and harder and they are usually run JavaScript to change up certain div tags and elements in their page to make scraping harder. Overall my code should work for a few pages at least when they don't suspect you are a bot. I also found that scraping late night towards midnight, was when I had the best results. My hypothesis is that their system resets at that time because the odds are, they employ machine learning to predict which users are bots based on all user traffic from that day. This is also why, you'll notice there are many different Xpaths I have set up as Try's and Excepts in my code.
+* My inspiration came from an YouTube video called "Introduction To WebScraping With Python and BeautifulSoup" by Data Science Dojo in the beginning when I was finding my way. This video that began the snowball effect of my progress, and it was instructed and narrated by Mr. Phuc Duong (Sr. Data Science Engineer). I will post the link in the credits at the end. Although this video was made 3 years ago, and versions of Python and BeautifulSoup he used were older, Mr. Duong did a great job in explaining the underlying concepts of webscraping with BeautifulSoup. I was able to reproduce the same results, and add my own flare to it, after reviewing updated documenation from BeautifulSoup4's website. After achieving initial success of webscraping one page of laptops from Newegg.com, I wanted to further challenge myself by adding a webcrawler capability that automatically clicks next page, and loops through as many pages as my search query produced. I used Splinter because based on some research I did, it was wrapper on top of Selenium in Python as opposed to JavaScript, which and it said to be gaining some popularity (https://python.libhunt.com/compare-splinter-vs-selenium). I am stronger Python, so my decision leaned towards Splinter to start out. Thoughout my program, I also made a genuine effort to weave in dyanmic and object oriented programming concepts into my project, which I found to be more scalable and efficient.
 
 
 ## System Prerequisites To Get Started
 
-You will need the following installed on your computer system, if you want to replicate my analysis:
+You will need the following installed on your computer system and import the following libraries:
 * Python >= 3.7 and the associated libraries:
 * import os
 * import re
@@ -61,9 +40,40 @@ You will need the following installed on your computer system, if you want to re
 
 ## Getting Started - Options
 
-* Viewing Source Code And Produced Results - if this is the route you'd like to go, then please click on the only and conveniently placed Jupyter Notebook in the repository. All of my code and webcrawling and scraping program logs are in the main Jupyter Notebook. I've also saved the results log from my program when I completed a 47 page scrape in the txt file. In the final_ouputs and processing folder, you will see the 25 and 47 page successful scrapes I did with my program.
+* Viewing Source Code And Produced Results - if this is the route you'd like to go, then please click on the only and conveniently placed Jupyter Notebook in the repository. All of my code and webcrawling and scraping program logs are in the main Jupyter Notebook. I've also saved the results log from my program when I completed a 47 page scrape in the txt file. In the final_ouputs and processing folder, you will see the 25 and 47 page successful scrapes my program produced saved as CSV files.
 
-* Clone / Download Entire Repository - if you'd like to replicate my work, please download / clone my repository and install all of the prerequisites. After, you can open the Jupyter Notebook, use the same search query I did or go to Newegg.com, and produce a search url query yourself.
+* Clone / Download Entire Repository - if you'd like to replicate my work or even use the scraper yourself, please download / clone my repository and install all of the prerequisites. After, you can open the Jupyter Notebook, use the same search query I did or go to Newegg.com, and produce a search url query yourself. In the Jupyter Notebook, it allows you to run everything cell by cell, incase you need to make any tweaks.
+
+
+## Main Built-in Functionalities
+
+* NewEgg Web Scarper Functions - this will keep trying to scrape the target page using a combination of while loop, random sleep patterns, and try and excepts. The output are a csv file per scraped page; all laptops on a page are then passed into a Laptop class, and instances of these objects  are created using a list comprehension, and are subsequently appended to a list called "product_catalog", producing a "list of list of objects".
+
+* Splinter Webcrawler Function - accurately loops thru pages of the search result; randomly mouses over product links on pages; and randomly sleeps and clicks the top or bottom next page button to emulate human behavior.
+
+* Concatenation Function - enables the user concatenate all scarped pages in the processing folder into one CSV file after entire scrape is completed, and is saved in the final_outputs folder. Note: as of right now in the beta, anything in the processing folder will be concatenated unless physically moved out or cleared, which segways to the function below.
+
+* Clear Processing Folder Function - enables the user to clear out the "processing" folder to prevent clutter; I left the files in files in the processing folder so you can see each page that was scraped as an example, and proof that I was successfully performed them.
+
+* Google reCAPTCHA and NewEgg's "Are You Human?" Test Functions - these scans the requested HTML, pauses the program, and alerts the user if Newegg suspects a bot and provides suggested actions to help the user circumvent Newegg's defenses to be successful in their scrape. I created these because I kept running into exceptions and errors, and I wanted to find ways around them by first catching, implementing what I call a "break pedal", to allow the user to manually circumvent the errors if my try and excepts do not work. This is why I called this a "supervised scrape", which requires 20% of the effort from the user, and 80% the scraper will handle for you.
+
+
+## Expectations - User Inputs And Outputs
+
+* Input requirement from the user is Step 3 in the picture below, which the user goes to Newegg.com, selects preferred laptop specifications and clicks apply, and copy and pastes the search query results's URL into the program when prompted.
+
+![user_input1](./images/input2.PNG)
+
+* Three potential outputs:
+
+- 1) Each Scraped page as a seperate CSV file in the processing folder
+
+![user_input1](./images/processing_folder.PNG)
+
+- 2) One CSV file of all pages scraped in one CSV file in the final_output folder
+
+![user_input1](./images/finshed_outputs.PNG)
+
 
 ## Sample Code And Findings
 
@@ -94,21 +104,37 @@ You will need the following installed on your computer system, if you want to re
 ![button_bottom](./images/bottombutton.PNG)
 
 
-* I wanted to emphasize this nested loop I created below because it was the main key that would unlock treasure chest, where the answer to this project would lie. I created an "Artist" column on the final YouTube Tables joined via Pandas in a dataframe format. I then created this nested loop that would enabled me identify which how many, and which Trending YouTube video belonged to which Spotify Artist. I accomplished this by targeting the artist names (referred to as channel title on YouTube), made them both uniform by removing all spaces, making them lowercase, and had the loop fill in the empty "artist" column if there was a match.
-* This Big O notation for time complexity would be an (n*m) function, as it was a nested loop on two seperate arrays. This was substantiated by the signifcant more amount of time I had to wait for this to run, but it was necessary.
+## Encountering Potential Errors
+
+* Potential Errors in the event the program is unable to circumvent Newegg's reCAPTCHA (Developed by Google) to help protect websites from being webscraped by requiring website visitors to complete image selections tests to prove the user is a human and not a bot. As you can imagine, this was the most difficult obstacle about this project I had to figure out a way to overcome, which is why this why I call this a "supervised webscraper and crawler", as the user is prompted to take action to circumvent their defenses. I also found that scraping late night towards midnight, was when I had the best results. My hypothesis is that their system resets at that time because the odds are, they employ machine learning to predict which users are bots based on all user traffic from that day. This is also why, you'll notice there are many different Xpaths I have set up as Try's and Excepts in my code.
+  
+- Google reCAPTCHA Test Example Below:
+
+![recaptcha_test](./images/recaptcha_test.PNG)
 
 
-![loop](./images/nested_loop.png)
+* Post reCAPTCHA Test - Passed And the Scraper Continues Example Below:
 
-* Here are the results we can see all of the artists that were listed on Spotify's Top 100 Songs for 2018, and the respective number of top trending videos they had in 2018. A consideration to keep in mind when viewing the results is because they are music artists, most if not all videos they upload on their channel for viewing is categorized as "Music" (e.g. music videos, promotion, features, video logs, message to fans, and etc).
+![recaptcha_test_passed](./images/recaptcha_alert_passed.PNG)
 
-![results](./images/results.png)
+* Additional notes regarding scraping errors - Every time I made an attempt to scrape Newegg.com, it got harder and harder. I believe this is because in addition to using Google reCAPTCHA, they also have JavaScript triggers to load elements at certain times or based on certain user actions. I do beleive they use machine learning as well and compare your actions based on an entire days worth of data. I found the JavaScript does change up certain div tags for the next page buttons. Also, when requesting the the HTML after completing a "Are you human?" test where you have to select images of either cars, crosswalks, fire hydrants, buses or etc, Newegg would send a bogus HTML on the back end to BeautifulSoup4, which cases an Index Error for the scraper. To circumvent this, I have the program automatically refresh the page for you, and establishing a manual break where you the user would take the suggested action (e.g. add an item to a cart as if you were popping and literally using the back button on your browser to the page you last left off scraping). The "Are you human?" function will trigger next, and scan the new requested text for bogus unscrapabe "Are you human?" HTML, as seen in the picture below, causing an Index error. The "Are you human?" function would then be recursively called again, to scan the new requested HTML, if it passes, the scrape will continue. 
+
+* "Are you human?" HTML - what it looks like when they send you bogus HTML to ruin your scrape on the backend:
+
+![bogus_HTML](./images/areyouhuman_request.PNG)
+
 
 ## Next Steps Considerations
-* Can go deeper on analysis, if time permits
-* Create nice charts and data visualizations
+
+* Reiterate on loops, put top and bottom xpaths into a list, and create a loop including tries and excepts instead of manually brute forcing. Goal would be to cut down redundant code and make it more elegant.
+  
+* Create nice charts and data visualizations with the data.
+
+* Learn how to use Selenium which is the OG to Splinter - perhaps for my next project.
+
 
 ### Personal Note
+
 * Hope you enjoyed it. Thank you for your time!
 
 ## Author
@@ -119,5 +145,8 @@ You will need the following installed on your computer system, if you want to re
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+## Acknowledgments & Credits
+
+* Shout out to Mr. Phuc Duong for the great video that helped inspire this project - Sr. Data Science Engineer @ Data Science Dojo - https://www.youtube.com/watch?v=XQgXKtPSzUI
+
 * I definitely want to give a shout out to my dear teacher, mentor, and friend @CodingWithCorgis!
