@@ -1,0 +1,1889 @@
+=== NewEgg.Com Laptop - Supervised Web Crawler & Scraper Beta v1.0 ===
+============================================================
+Scope: This project is a beta and is only built to scrape the laptop section of NewEgg.com due to limited time. 
+
+Instructions: 
+
+Current Date And Time: 2020-04-29_00.31.21 
+
+(1) Go to www.newegg.com, go to the laptop section, select your requirements (e.g. brand, screensize, and specifications - SSD size, processor brand and etc...) 
+(2) Copy and paste the url from your exact search when prompted 
+(3) This is a "Supervised Scraper", meaning it will mostly be automated, but you will be alerted to take action when necessary. 
+
+(4) You may run the program in the background after the initial set of instructions, as the program will alert you to take action (e.g. when Newegg suspects a bot. )
+(5) After the webscraping is successful, you will have an option to concatenate all of the pages you scraped together into one csv file
+(6) Lastly, you will have an option to clear out the processing folder (data scraped by each page)
+(7) If you have any issues or errors, "PRESS CTRL + C" to quit the program in the terminal 
+Disclaimer: Newegg may ban you for a 24 - 48 hours for webscraping their data, then you may resume. 
+ Also, please consider executing during the day, with tons of web traffic to their site in your respective area. 
+
+Happy Scraping!
+Please copy and paste your laptop query that you want to webscrape, and press enter: 
+https://www.newegg.com/p/pl?N=100006740%20600004804%20600136700%20600165638%20600004343%20601183480%20601307583%204814%20601296065%20601296059%20601296066%20601286795%20600440394%20600004344&LeftPriceRange=1000%201500
+Break Pedal - close any pop ups and go any item and add one to the cart and go to the first search query. y
+<Response [200]> 
+
+Beginning webscraping and activity log below... 
+============================================================
+Beginning mouse over activity... 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 1 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 8 seconds. and continue
+Current Page: 1) | SLEEPING FOR 5 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 3. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 8. 
+
+Slept for 8 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 7 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 2 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 2 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 15 seconds. and continue
+Current Page: 2) | SLEEPING FOR 5 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 7. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 7. 
+
+Slept for 7 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 9 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 3 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 3 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Heads - will mouse over the page. 
+Found 2159 <a> tags when parsing html... 
+Mimic Humans - Sleeping for 7 seconds. 
+EXCEPTION raised during mouse over. Going to break loop and proceed with moving to the next page. 
+
+Current Page: 3) | SLEEPING FOR 5 SECONDS THEN will click next page. 
+
+Heads - Clicking "Next Page" Top Button. 
+
+Mimic human behavior by randomly sleeping for 4. 
+
+Slept for 4 seconds. 
+
+Heads - SUCCESSFUL "Next Page" Top Button. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 7 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 4 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 4 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 19 seconds. and continue
+Current Page: 4) | SLEEPING FOR 5 SECONDS THEN will click next page. 
+
+Heads - Clicking "Next Page" Top Button. 
+
+Mimic human behavior by randomly sleeping for 6. 
+
+Slept for 6 seconds. 
+
+Heads - SUCCESSFUL "Next Page" Top Button. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 8 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 5 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 5 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Heads - will mouse over the page. 
+Found 2154 <a> tags when parsing html... 
+Mimic Humans - Sleeping for 7 seconds. 
+<a> number = 2027 | Current Attempts (Try Count): 1 
+
+Mimic Humans - Sleeping for 7 seconds. 
+<a> number = 2048 | Current Attempts (Try Count): 2 
+
+Mimic Humans - Sleeping for 7 seconds. 
+<a> number = 2069 | Current Attempts (Try Count): 3 
+
+Current Page: 5) | SLEEPING FOR 6 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 5. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 6. 
+
+Slept for 6 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 9 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 6 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 6 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Heads - will mouse over the page. 
+Found 2158 <a> tags when parsing html... 
+Mimic Humans - Sleeping for 7 seconds. 
+EXCEPTION raised during mouse over. Going to break loop and proceed with moving to the next page. 
+
+Current Page: 6) | SLEEPING FOR 6 SECONDS THEN will click next page. 
+
+Heads - Clicking "Next Page" Top Button. 
+
+Mimic human behavior by randomly sleeping for 6. 
+
+Slept for 6 seconds. 
+
+Heads - SUCCESSFUL "Next Page" Top Button. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 8 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 7 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 7 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 14 seconds. and continue
+Current Page: 7) | SLEEPING FOR 5 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 3. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 7. 
+
+Slept for 7 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 9 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 8 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 8 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 14 seconds. and continue
+Current Page: 8) | SLEEPING FOR 6 SECONDS THEN will click next page. 
+
+Heads - Clicking "Next Page" Top Button. 
+
+Mimic human behavior by randomly sleeping for 8. 
+
+Slept for 8 seconds. 
+
+Heads - SUCCESSFUL "Next Page" Top Button. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 9 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 9 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 9 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Heads - will mouse over the page. 
+Found 2158 <a> tags when parsing html... 
+Mimic Humans - Sleeping for 10 seconds. 
+<a> number = 2009 | Current Attempts (Try Count): 1 
+
+Mimic Humans - Sleeping for 10 seconds. 
+<a> number = 2030 | Current Attempts (Try Count): 2 
+
+Mimic Humans - Sleeping for 10 seconds. 
+EXCEPTION raised during mouse over. Going to break loop and proceed with moving to the next page. 
+
+Current Page: 9) | SLEEPING FOR 4 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 3. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 3. 
+
+Slept for 3 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 8 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 10 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 10 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 19 seconds. and continue
+Current Page: 10) | SLEEPING FOR 5 SECONDS THEN will click next page. 
+
+Heads - Clicking "Next Page" Top Button. 
+
+Mimic human behavior by randomly sleeping for 5. 
+
+Slept for 5 seconds. 
+
+Heads - SUCCESSFUL "Next Page" Top Button. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 9 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 11 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 11 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 11 seconds. and continue
+Current Page: 11) | SLEEPING FOR 5 SECONDS THEN will click next page. 
+
+Heads - Clicking "Next Page" Top Button. 
+
+Mimic human behavior by randomly sleeping for 5. 
+
+Slept for 5 seconds. 
+
+Heads - SUCCESSFUL "Next Page" Top Button. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 8 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 12 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 12 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Heads - will mouse over the page. 
+Found 2153 <a> tags when parsing html... 
+Mimic Humans - Sleeping for 7 seconds. 
+EXCEPTION raised during mouse over. Going to break loop and proceed with moving to the next page. 
+
+Current Page: 12) | SLEEPING FOR 4 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 4. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 7. 
+
+Slept for 7 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 6 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 13 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 13 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Heads - will mouse over the page. 
+Found 2153 <a> tags when parsing html... 
+Mimic Humans - Sleeping for 6 seconds. 
+<a> number = 1961 | Current Attempts (Try Count): 1 
+
+Mimic Humans - Sleeping for 6 seconds. 
+<a> number = 1976 | Current Attempts (Try Count): 2 
+
+Mimic Humans - Sleeping for 6 seconds. 
+<a> number = 1991 | Current Attempts (Try Count): 3 
+
+Mimic Humans - Sleeping for 6 seconds. 
+<a> number = 2006 | Current Attempts (Try Count): 4 
+
+Mimic Humans - Sleeping for 6 seconds. 
+EXCEPTION raised during mouse over. Going to break loop and proceed with moving to the next page. 
+
+Current Page: 13) | SLEEPING FOR 5 SECONDS THEN will click next page. 
+
+Heads - Clicking "Next Page" Top Button. 
+
+Mimic human behavior by randomly sleeping for 7. 
+
+Slept for 7 seconds. 
+
+Heads - SUCCESSFUL "Next Page" Top Button. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 9 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 14 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 14 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Heads - will mouse over the page. 
+Found 2151 <a> tags when parsing html... 
+Mimic Humans - Sleeping for 10 seconds. 
+<a> number = 1959 | Current Attempts (Try Count): 1 
+
+Mimic Humans - Sleeping for 10 seconds. 
+<a> number = 1982 | Current Attempts (Try Count): 2 
+
+Mimic Humans - Sleeping for 10 seconds. 
+<a> number = 2005 | Current Attempts (Try Count): 3 
+
+Mimic Humans - Sleeping for 10 seconds. 
+EXCEPTION raised during mouse over. Going to break loop and proceed with moving to the next page. 
+
+Current Page: 14) | SLEEPING FOR 5 SECONDS THEN will click next page. 
+
+Heads - Clicking "Next Page" Top Button. 
+
+Mimic human behavior by randomly sleeping for 3. 
+
+Slept for 3 seconds. 
+
+Heads - SUCCESSFUL "Next Page" Top Button. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 10 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 15 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 15 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Heads - will mouse over the page. 
+Found 2160 <a> tags when parsing html... 
+Mimic Humans - Sleeping for 8 seconds. 
+EXCEPTION raised during mouse over. Going to break loop and proceed with moving to the next page. 
+
+Current Page: 15) | SLEEPING FOR 5 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 4. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 7. 
+
+Slept for 7 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 10 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 16 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 16 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Heads - will mouse over the page. 
+Found 2155 <a> tags when parsing html... 
+Mimic Humans - Sleeping for 6 seconds. 
+EXCEPTION raised during mouse over. Going to break loop and proceed with moving to the next page. 
+
+Current Page: 16) | SLEEPING FOR 4 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 5. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 7. 
+
+Slept for 7 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 6 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 17 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 17 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 18 seconds. and continue
+Current Page: 17) | SLEEPING FOR 6 SECONDS THEN will click next page. 
+
+Heads - Clicking "Next Page" Top Button. 
+
+Mimic human behavior by randomly sleeping for 5. 
+
+Slept for 5 seconds. 
+
+Heads - SUCCESSFUL "Next Page" Top Button. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 10 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 18 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 18 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 10 seconds. and continue
+Current Page: 18) | SLEEPING FOR 5 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 4. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 8. 
+
+Slept for 8 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 7 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 19 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 19 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 11 seconds. and continue
+Current Page: 19) | SLEEPING FOR 6 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 7. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 7. 
+
+Slept for 7 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 8 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 20 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 20 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 16 seconds. and continue
+Current Page: 20) | SLEEPING FOR 6 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 6. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 8. 
+
+Slept for 8 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 10 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 21 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 21 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 13 seconds. and continue
+Current Page: 21) | SLEEPING FOR 4 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 8. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 4. 
+
+Slept for 4 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 10 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 22 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 22 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 11 seconds. and continue
+Current Page: 22) | SLEEPING FOR 4 SECONDS THEN will click next page. 
+
+Heads - Clicking "Next Page" Top Button. 
+
+Mimic human behavior by randomly sleeping for 7. 
+
+Slept for 7 seconds. 
+
+Heads - SUCCESSFUL "Next Page" Top Button. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 9 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 23 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 23 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 16 seconds. and continue
+Current Page: 23) | SLEEPING FOR 5 SECONDS THEN will click next page. 
+
+Heads - Clicking "Next Page" Top Button. 
+
+Mimic human behavior by randomly sleeping for 8. 
+
+Slept for 8 seconds. 
+
+Heads - SUCCESSFUL "Next Page" Top Button. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 10 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 24 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 24 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Heads - will mouse over the page. 
+Found 2148 <a> tags when parsing html... 
+Mimic Humans - Sleeping for 9 seconds. 
+<a> number = 2021 | Current Attempts (Try Count): 1 
+
+Mimic Humans - Sleeping for 9 seconds. 
+<a> number = 2043 | Current Attempts (Try Count): 2 
+
+Current Page: 24) | SLEEPING FOR 4 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 6. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 5. 
+
+Slept for 5 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 8 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 25 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 25 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Heads - will mouse over the page. 
+Found 2147 <a> tags when parsing html... 
+Mimic Humans - Sleeping for 7 seconds. 
+<a> number = 1999 | Current Attempts (Try Count): 1 
+
+Mimic Humans - Sleeping for 7 seconds. 
+EXCEPTION raised during mouse over. Going to break loop and proceed with moving to the next page. 
+
+Current Page: 25) | SLEEPING FOR 5 SECONDS THEN will click next page. 
+
+Heads - Clicking "Next Page" Top Button. 
+
+Mimic human behavior by randomly sleeping for 6. 
+
+Slept for 6 seconds. 
+
+Heads - SUCCESSFUL "Next Page" Top Button. 
+
+
+============================================================
+
+recaptcha - Check Alert! 
+
+Newegg system suspects you are a bot. 
+ Complete the recaptcha test to prove you're not a bot. After, enter in any key and press ENTER to continue the scrape. 
+y
+Continuing with scrape... 
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 9 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 26 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 26 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 11 seconds. and continue
+Current Page: 26) | SLEEPING FOR 6 SECONDS THEN will click next page. 
+
+Heads - Clicking "Next Page" Top Button. 
+
+Mimic human behavior by randomly sleeping for 4. 
+
+Slept for 4 seconds. 
+
+Heads - SUCCESSFUL "Next Page" Top Button. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 9 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 27 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 27 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 19 seconds. and continue
+Current Page: 27) | SLEEPING FOR 5 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 8. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 7. 
+
+Slept for 7 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 9 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 28 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 28 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 18 seconds. and continue
+Current Page: 28) | SLEEPING FOR 6 SECONDS THEN will click next page. 
+
+Heads - Clicking "Next Page" Top Button. 
+
+Mimic human behavior by randomly sleeping for 7. 
+
+Slept for 7 seconds. 
+
+Heads - SUCCESSFUL "Next Page" Top Button. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 7 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 29 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 29 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 16 seconds. and continue
+Current Page: 29) | SLEEPING FOR 6 SECONDS THEN will click next page. 
+
+Heads - Clicking "Next Page" Top Button. 
+
+Mimic human behavior by randomly sleeping for 6. 
+
+Slept for 6 seconds. 
+
+Heads - SUCCESSFUL "Next Page" Top Button. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 10 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 30 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 30 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Heads - will mouse over the page. 
+Found 2154 <a> tags when parsing html... 
+Mimic Humans - Sleeping for 7 seconds. 
+EXCEPTION raised during mouse over. Going to break loop and proceed with moving to the next page. 
+
+Current Page: 30) | SLEEPING FOR 4 SECONDS THEN will click next page. 
+
+Heads - Clicking "Next Page" Top Button. 
+
+Mimic human behavior by randomly sleeping for 5. 
+
+Slept for 5 seconds. 
+
+Heads - SUCCESSFUL "Next Page" Top Button. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 8 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 31 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 31 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Heads - will mouse over the page. 
+Found 2146 <a> tags when parsing html... 
+Mimic Humans - Sleeping for 6 seconds. 
+EXCEPTION raised during mouse over. Going to break loop and proceed with moving to the next page. 
+
+Current Page: 31) | SLEEPING FOR 6 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 8. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 5. 
+
+Slept for 5 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 7 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 32 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 32 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Heads - will mouse over the page. 
+Found 2153 <a> tags when parsing html... 
+Mimic Humans - Sleeping for 7 seconds. 
+EXCEPTION raised during mouse over. Going to break loop and proceed with moving to the next page. 
+
+Current Page: 32) | SLEEPING FOR 4 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 7. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION BYPASSED! Tails - 2nd Bottom Xpath - SUCCESSFUL "Next Page" Bottom Button. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 7. 
+
+Slept for 7 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 6 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 33 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 33 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 10 seconds. and continue
+Current Page: 33) | SLEEPING FOR 5 SECONDS THEN will click next page. 
+
+Heads - Clicking "Next Page" Top Button. 
+
+Mimic human behavior by randomly sleeping for 8. 
+
+Slept for 8 seconds. 
+
+Heads - SUCCESSFUL "Next Page" Top Button. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 10 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 34 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 34 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Heads - will mouse over the page. 
+Found 2151 <a> tags when parsing html... 
+Mimic Humans - Sleeping for 7 seconds. 
+<a> number = 1959 | Current Attempts (Try Count): 1 
+
+Mimic Humans - Sleeping for 7 seconds. 
+<a> number = 1975 | Current Attempts (Try Count): 2 
+
+Mimic Humans - Sleeping for 7 seconds. 
+<a> number = 1991 | Current Attempts (Try Count): 3 
+
+Mimic Humans - Sleeping for 7 seconds. 
+<a> number = 2007 | Current Attempts (Try Count): 4 
+
+Mimic Humans - Sleeping for 7 seconds. 
+<a> number = 2023 | Current Attempts (Try Count): 5 
+
+Mimic Humans - Sleeping for 7 seconds. 
+<a> number = 2039 | Current Attempts (Try Count): 6 
+
+Mimic Humans - Sleeping for 7 seconds. 
+<a> number = 2055 | Current Attempts (Try Count): 7 
+
+Current Page: 34) | SLEEPING FOR 6 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 5. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 8. 
+
+Slept for 8 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 6 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 35 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 35 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Heads - will mouse over the page. 
+Found 2151 <a> tags when parsing html... 
+Mimic Humans - Sleeping for 9 seconds. 
+EXCEPTION raised during mouse over. Going to break loop and proceed with moving to the next page. 
+
+Current Page: 35) | SLEEPING FOR 5 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 6. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 3. 
+
+Slept for 3 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 10 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 36 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 36 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 16 seconds. and continue
+Current Page: 36) | SLEEPING FOR 4 SECONDS THEN will click next page. 
+
+Heads - Clicking "Next Page" Top Button. 
+
+Mimic human behavior by randomly sleeping for 5. 
+
+Slept for 5 seconds. 
+
+Heads - SUCCESSFUL "Next Page" Top Button. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 10 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 37 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 37 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 19 seconds. and continue
+Current Page: 37) | SLEEPING FOR 4 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 3. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 8. 
+
+Slept for 8 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 8 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 38 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 38 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Heads - will mouse over the page. 
+Found 2152 <a> tags when parsing html... 
+Mimic Humans - Sleeping for 10 seconds. 
+<a> number = 2025 | Current Attempts (Try Count): 1 
+
+Mimic Humans - Sleeping for 10 seconds. 
+EXCEPTION raised during mouse over. Going to break loop and proceed with moving to the next page. 
+
+Current Page: 38) | SLEEPING FOR 6 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 4. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 5. 
+
+Slept for 5 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 8 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 39 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 39 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Heads - will mouse over the page. 
+Found 2152 <a> tags when parsing html... 
+Mimic Humans - Sleeping for 8 seconds. 
+EXCEPTION raised during mouse over. Going to break loop and proceed with moving to the next page. 
+
+Current Page: 39) | SLEEPING FOR 4 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 5. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 6. 
+
+Slept for 6 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 10 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 40 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 40 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 15 seconds. and continue
+Current Page: 40) | SLEEPING FOR 5 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 6. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 5. 
+
+Slept for 5 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 6 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 41 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 41 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Heads - will mouse over the page. 
+Found 2155 <a> tags when parsing html... 
+Mimic Humans - Sleeping for 9 seconds. 
+EXCEPTION raised during mouse over. Going to break loop and proceed with moving to the next page. 
+
+Current Page: 41) | SLEEPING FOR 5 SECONDS THEN will click next page. 
+
+Heads - Clicking "Next Page" Top Button. 
+
+Mimic human behavior by randomly sleeping for 5. 
+
+Slept for 5 seconds. 
+
+Heads - SUCCESSFUL "Next Page" Top Button. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 7 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 42 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 42 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 10 seconds. and continue
+Current Page: 42) | SLEEPING FOR 4 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 5. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 7. 
+
+Slept for 7 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 7 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 43 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 43 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Heads - will mouse over the page. 
+Found 2165 <a> tags when parsing html... 
+Mimic Humans - Sleeping for 10 seconds. 
+EXCEPTION raised during mouse over. Going to break loop and proceed with moving to the next page. 
+
+Current Page: 43) | SLEEPING FOR 5 SECONDS THEN will click next page. 
+
+Heads - Clicking "Next Page" Top Button. 
+
+Mimic human behavior by randomly sleeping for 4. 
+
+Slept for 4 seconds. 
+
+Heads - SUCCESSFUL "Next Page" Top Button. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 7 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 44 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 44 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Tails - will sleep for 12 seconds. and continue
+Current Page: 44) | SLEEPING FOR 6 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 7. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 4. 
+
+Slept for 4 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 8 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 45 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 45 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Heads - will mouse over the page. 
+Found 2153 <a> tags when parsing html... 
+Mimic Humans - Sleeping for 9 seconds. 
+EXCEPTION raised during mouse over. Going to break loop and proceed with moving to the next page. 
+
+Current Page: 45) | SLEEPING FOR 4 SECONDS THEN will click next page. 
+
+Heads - Clicking "Next Page" Top Button. 
+
+Mimic human behavior by randomly sleeping for 8. 
+
+Slept for 8 seconds. 
+
+Heads - SUCCESSFUL "Next Page" Top Button. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 9 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 46 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 46 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Heads - will mouse over the page. 
+Found 2152 <a> tags when parsing html... 
+Mimic Humans - Sleeping for 9 seconds. 
+<a> number = 2003 | Current Attempts (Try Count): 1 
+
+Mimic Humans - Sleeping for 9 seconds. 
+EXCEPTION raised during mouse over. Going to break loop and proceed with moving to the next page. 
+
+Current Page: 46) | SLEEPING FOR 5 SECONDS THEN will click next page. 
+
+Tails - Clicking "Next Page" Xpath Bottom Button. 
+
+Mimic human behavior by randomly sleeping for 6. 
+
+EXCEPTION - 1st Bottom Xpath Failed. Sleep for 4 second then will try with 2nd Xpath bottom link. 
+
+EXCEPTION - 2nd Bottom Xpath Failed. Trying with 3rd Xpath bottom link. 
+
+Last Bottom Next Page Xpath Button was unsuccessful... Will Attempt Top Next Page Button.... 
+
+Mimic human behavior by randomly sleeping for 8. 
+
+Slept for 8 seconds. 
+
+EXCEPTION BYPASSED SUCCESSFUL "Next Page" Top Button worked. 
+
+
+============================================================
+
+Beginning mouse over activity... 
+
+Mimic Humans - Sleeping for 7 seconds. 
+<Response [200]> 
+
+Passed the 'Are you human?' check when requesting and parsing the html. Continuing with scrape ... 
+
+After 1 attempts, SUCCESSFULLY scraped the page and will continue... 
+
+Scraped Current Page: 47 
+
+Creating laptop objects for this page... 
+
+Finished creating Laptop objects for page 47 ... 
+
+Adding 36 to laptop catalog... 
+
+Flipping coin to decide mouse over on the page or not... 
+Heads - will mouse over the page. 
+Found 2155 <a> tags when parsing html... 
+Mimic Humans - Sleeping for 10 seconds. 
+<a> number = 2028 | Current Attempts (Try Count): 1 
+
+Mimic Humans - Sleeping for 10 seconds. 
+<a> number = 2047 | Current Attempts (Try Count): 2 
+
+Mimic Humans - Sleeping for 10 seconds. 
+<a> number = 2066 | Current Attempts (Try Count): 3 
+
+Completed scraping 47 / 47 pages. 
+ 
+
+============================================================
+
+All 47 pages have been saved in the "processing" folder (1 page = csv files). Would you like for us concatenate all the files into one? Enter "y", if so. Otherwise, enter anykey to exit the program. 
+y
+WebScraping Complete! All 47 have been scraped and saved as 2020-04-29_00.31.21_LaptopsNotebooks_scraped_47_pages_.csv in the "finished_outputs" folder 
+
+The "processing" folder has 47 csv files of each page that was scraped. Would you like to clear the files? Enter "y", if so. Otherwise, enter anykey to exit the program. 
+n
+Thank you checking out my project, and hope you found this useful! 
