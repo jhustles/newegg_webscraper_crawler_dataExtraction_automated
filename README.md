@@ -16,7 +16,7 @@
 
 ## Background Information
 
-* My inspiration came from an YouTube video called "Introduction To WebScraping With Python and BeautifulSoup", uploaded by Data Science Dojo Channel, and it instructed by Mr. Phuc Duong, Sr. Data Science Engineer. When I was finding my way on how to build a web scraper, this video that began the snowball effect of my progress. I will post the link in the credits at the end. Although this video was made 3 years ago, and versions of Python and BeautifulSoup he used were older, Mr. Duong did a great job in explaining the underlying concepts of webscraping with BeautifulSoup. I was able to reproduce the same results, go more in-depth, and even add my own flare to it by referring to updated documenation. After achieving initial success of scraping one page of laptops from Newegg, I wanted to further challenge myself by building a web crawler capability that automatically loops through as many pages as my search query produced, scrape all the targeted laptop data, and output a CSV file for each page and a list Python objects. To reach this goal, I decided to use Splinter for the following reasons: Splinter is wrapper on top of Selenium that is Python based (Selenium is originally JavaScript based - https://python.libhunt.com/compare-splinter-vs-selenium); Splinter is said to be gaining popularity; and Python is my natural strength. I found that Splinter and the Chrome Web Driver relatively easy to implement to automate my program. Thoughout my program, I also made a genuine effort to weave in dyanmic and object oriented programming concepts, which I found made my code more scalable, efficient, and stylistically cleaner.
+* My inspiration came from an YouTube video called "Introduction To WebScraping With Python and BeautifulSoup", uploaded by Data Science Dojo Channel, and it instructed by Mr. Phuc Duong, Sr. Data Science Engineer. When I was finding my way on how to build a web scraper, this video that began the snowball effect of my progress. I will post the link in the credits at the end. Although this video was made 3 years ago, and versions of Python and BeautifulSoup he used were older, Mr. Duong did a great job in explaining the underlying concepts of webscraping with BeautifulSoup. I was able to reproduce the same results, go more in-depth, and even add my own flare to it by referring to updated documenation. After achieving initial success of scraping one page of laptops from Newegg, I wanted to further challenge myself by building a web crawler capability that automatically loops through as many pages as my search query produced, scrape all the targeted laptop data, and output a CSV file for each page and a list Python objects. To reach this goal, I decided to use Splinter for the following reasons: Splinter is wrapper on top of Selenium that is Python based (Selenium does have a Python library, however it is originally JavaScript based according to https://python.libhunt.com/compare-splinter-vs-selenium); Splinter is said to be gaining popularity; and Python is my natural strength. I found that Splinter and the Chrome Web Driver relatively easy to implement to automate my program. Thoughout my program, I also made a genuine effort to weave in dyanmic and object oriented programming concepts, which I found made my code more scalable, efficient, and stylistically cleaner.
 
 
 ## System Prerequisites To Get Started
@@ -64,7 +64,7 @@ You will need the following installed on your computer system and import the fol
 
 ![user_input1](./images/input2.PNG)
 
-* Three Potential Outputs:
+* Outputs:
 
 1) Each Scraped page as a seperate CSV file in the processing folder
 
@@ -96,11 +96,11 @@ You will need the following installed on your computer system and import the fol
 * Note: For the Bottom Next Page Button - I found that NewEgg.com had more of a tendency to change bottom divs when you get deep into the scrape especially, when it suspects the user is a bot, or after the user was prompted to take a Google reCAPTCHA test.
 
 ![button_bottom](./images/bottombutton.PNG)
-
+**
 * Programmed "Break Pedals" - the program will pause and user will be alerted when Newegg suspects the user is a bot. After the user takes necessary actions to by pass it, the user is asked to enter in any key to attempt to continue the scrape. Below are examples:
 
 ![button_bottom](./images/breakpedal_topbottom_nextpg_notworking.PNG)
-
+**
 
 ## Encountering Potential Errors
 
